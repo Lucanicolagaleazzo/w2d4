@@ -1,0 +1,264 @@
+#logo {
+    width: 160px;
+    height: 25px;
+    background-image: url("/assets/medium_logo.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    align-self: flex-start;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+body {
+    margin: 0;
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    box-shadow: 1px 5px 6px 0px #d8d8d8; 
+
+}
+
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 100px;
+    margin-right: 100px;
+    height: 60px;
+    padding-top: 10px;
+}
+
+nav {
+    display: flex;
+    width: 350px;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+nav i {
+    margin-top: 10px;
+}
+
+header input {
+    border-radius: 15px;
+    text-align: center;
+}
+
+.circle {
+    width: 25px;
+    height: 25px;
+    background-color: #F4511E;
+    text-align: center;
+    border-radius: 50%;
+    display: inline;
+    line-height: 25px;
+    margin-top: 5px;
+    color: white;
+}
+
+.container {
+    top: 100px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.following {
+    color: #767676;
+}
+
+.you {
+    text-decoration: underline;
+    text-underline-offset: 12px;
+    font-weight: bold;
+}
+
+.card-content {
+    padding: 0 20px 0 0;
+}
+
+.card {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
+.card-author {
+    font-weight: bold;
+    font-size: medium;
+    padding-bottom: 10px;
+}
+
+.card-title {
+    font-weight: bold;
+    font-size: larger;
+    padding-bottom: 5px;
+}
+
+.card-info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-info-sx {
+    color: #767676;
+    padding-top: 5px;
+}
+
+.card-text {
+    color: #6B6B6B;
+}
+
+.card-image {
+    width: 150px;
+    height: 80px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#card1 .card-image {
+    background-image: url("assets/foto1.png");
+}
+
+main {
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+aside {
+    border-left: 1px solid gray;
+    width: 35%;
+    padding-left: 50px;
+}
+
+.social {
+    text-align: center;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+.social-text {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+button {
+    padding: 8px 16px;
+    border: 1px solid gray;
+    border-radius: 15px;
+    background-color: white;
+}
+
+.social-later {
+    padding-top: 10px;
+    color: #6B6B6B;
+}
+
+.recommended {
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+h5 {
+    font-size: large;
+    margin-bottom: 10px;
+}
+
+.topics {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 10px;
+}
+
+.topic {
+    background-color: #F2F2F2;
+    text-align: center;
+    border-radius: 15px;
+    display: inline;
+    margin-top: 5px;
+    color: black;
+    padding: 5px;
+}
+
+.follow {
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.follower {
+    display: flex;
+    justify-content:flex-start;
+    gap: 10px;
+    padding-bottom: 20px;
+}
+
+.follower-content {
+    padding-right: 300px;
+}
+
+.follower-image {
+    width: 35px;
+    height: 35px;
+    background-color: #F4511E;
+    text-align: center;
+    border-radius: 50%;
+    display: inline;
+    line-height: 35px;
+    margin-top: 5px;
+    color: white;
+}
+
+.follower-name {
+    font-weight: bold;
+}
+
+.follower-profession {
+    color: #6B6B6B;
+}
+
+#follower1 .follower-image {
+    background-image: url("assets/foto1.png");
+}
+
+.follower button {
+    margin-left: 30px;
+}
+
+.recently-saved{
+    display: flex;
+    flex-direction: column;
+    padding: 2em;
+    row-gap: 1em;
+}
+
+.otherSavedContent a{
+    color: green;
+}
+
+h3 {
+    color: black;
+}
+
+#navigation{
+    display: flex;
+    justify-content: space-between;
+}
+
+#navigation li {
+    display: inline;
+    list-style-type: none;
+}
+#navigation a{
+    color: #6B6B6B;
+}
